@@ -3,7 +3,7 @@
 //  MisRecetas
 //
 //  Created by Jorge Gabriel Gutierrez Ruiz on 6/9/17.
-//  Copyright © 2017 Jorge Gabriel Gutierrez Ruiz. All rights reserved.
+//  Copyright © 2017 Jorge Gabriel Gutierrez Ruiz. All rights reserved...
 //
 
 import UIKit
