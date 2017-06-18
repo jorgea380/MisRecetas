@@ -7,14 +7,28 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CF1C59161EA3033D0074BE88 /* SingleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF1C59151EA3033D0074BE88 /* SingleViewController.swift */; };
+		CF1C59181EA310E30074BE88 /* RecipeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF1C59171EA310E30074BE88 /* RecipeCell.swift */; };
+		CF1C591C1EA31B240074BE88 /* FullRecipeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF1C591B1EA31B240074BE88 /* FullRecipeCell.swift */; };
+		CF1C591E1EA31B7B0074BE88 /* FullRecipe.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF1C591D1EA31B7B0074BE88 /* FullRecipe.swift */; };
+		CF41BADB1EB7DB8C000A76AB /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF41BADA1EB7DB8C000A76AB /* DetailViewController.swift */; };
+		CF41BADD1EB7E4FD000A76AB /* RecipeDetailViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF41BADC1EB7E4FD000A76AB /* RecipeDetailViewCell.swift */; };
 		CF4F81E51E9FE8E60083642E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF4F81E41E9FE8E60083642E /* AppDelegate.swift */; };
 		CF4F81E71E9FE8E60083642E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF4F81E61E9FE8E60083642E /* ViewController.swift */; };
 		CF4F81EA1E9FE8E60083642E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF4F81E81E9FE8E60083642E /* Main.storyboard */; };
 		CF4F81EC1E9FE8E60083642E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CF4F81EB1E9FE8E60083642E /* Assets.xcassets */; };
 		CF4F81EF1E9FE8E60083642E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF4F81ED1E9FE8E60083642E /* LaunchScreen.storyboard */; };
+		CF4F81F71E9FEC1A0083642E /* Recipe.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF4F81F61E9FEC1A0083642E /* Recipe.swift */; };
+		CFAC6EF31EEB821F00004F4C /* ReviewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFAC6EF21EEB821F00004F4C /* ReviewViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		CF1C59151EA3033D0074BE88 /* SingleViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SingleViewController.swift; sourceTree = "<group>"; };
+		CF1C59171EA310E30074BE88 /* RecipeCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecipeCell.swift; sourceTree = "<group>"; };
+		CF1C591B1EA31B240074BE88 /* FullRecipeCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FullRecipeCell.swift; path = ../FullRecipeCell.swift; sourceTree = "<group>"; };
+		CF1C591D1EA31B7B0074BE88 /* FullRecipe.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FullRecipe.swift; sourceTree = "<group>"; };
+		CF41BADA1EB7DB8C000A76AB /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		CF41BADC1EB7E4FD000A76AB /* RecipeDetailViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecipeDetailViewCell.swift; sourceTree = "<group>"; };
 		CF4F81E11E9FE8E60083642E /* MisRecetas.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MisRecetas.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CF4F81E41E9FE8E60083642E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CF4F81E61E9FE8E60083642E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +36,8 @@
 		CF4F81EB1E9FE8E60083642E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CF4F81EE1E9FE8E60083642E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CF4F81F01E9FE8E60083642E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CF4F81F61E9FEC1A0083642E /* Recipe.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Recipe.swift; sourceTree = "<group>"; };
+		CFAC6EF21EEB821F00004F4C /* ReviewViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReviewViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,10 +72,18 @@
 			children = (
 				CF4F81E41E9FE8E60083642E /* AppDelegate.swift */,
 				CF4F81E61E9FE8E60083642E /* ViewController.swift */,
+				CF1C591D1EA31B7B0074BE88 /* FullRecipe.swift */,
 				CF4F81E81E9FE8E60083642E /* Main.storyboard */,
+				CF41BADC1EB7E4FD000A76AB /* RecipeDetailViewCell.swift */,
+				CF41BADA1EB7DB8C000A76AB /* DetailViewController.swift */,
+				CF4F81F61E9FEC1A0083642E /* Recipe.swift */,
 				CF4F81EB1E9FE8E60083642E /* Assets.xcassets */,
 				CF4F81ED1E9FE8E60083642E /* LaunchScreen.storyboard */,
 				CF4F81F01E9FE8E60083642E /* Info.plist */,
+				CF1C59151EA3033D0074BE88 /* SingleViewController.swift */,
+				CF1C59171EA310E30074BE88 /* RecipeCell.swift */,
+				CF1C591B1EA31B240074BE88 /* FullRecipeCell.swift */,
+				CFAC6EF21EEB821F00004F4C /* ReviewViewController.swift */,
 			);
 			path = MisRecetas;
 			sourceTree = "<group>";
@@ -137,8 +161,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CF1C591C1EA31B240074BE88 /* FullRecipeCell.swift in Sources */,
+				CF41BADD1EB7E4FD000A76AB /* RecipeDetailViewCell.swift in Sources */,
+				CFAC6EF31EEB821F00004F4C /* ReviewViewController.swift in Sources */,
+				CF1C59181EA310E30074BE88 /* RecipeCell.swift in Sources */,
+				CF4F81F71E9FEC1A0083642E /* Recipe.swift in Sources */,
 				CF4F81E71E9FE8E60083642E /* ViewController.swift in Sources */,
+				CF1C591E1EA31B7B0074BE88 /* FullRecipe.swift in Sources */,
+				CF1C59161EA3033D0074BE88 /* SingleViewController.swift in Sources */,
 				CF4F81E51E9FE8E60083642E /* AppDelegate.swift in Sources */,
+				CF41BADB1EB7DB8C000A76AB /* DetailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -304,6 +336,7 @@
 				CF4F81F51E9FE8E60083642E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
